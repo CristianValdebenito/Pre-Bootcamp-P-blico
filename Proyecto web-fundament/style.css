@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+body{
+    background-color: #263238;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    height: 60px;
+    font-style: normal;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.bodyy{
+    height: 1147px;
+    width: 1500px;
+    margin: 0px 0px 7px 8px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+.bodyy img{
+    height: 420px;
+    width: 1461px;
+    margin: 19px;
+}
+.bodyy2-info{
+    display: flex;
+    justify-content: space-around;
+}
+.services, .projects, .clients{
+    background-color: #336699;
+    height: 294px;
+    width: 465px;
+    margin: 19px;
+    font-style: normal;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.bodyy2-info img{
+    height: 40px;
+    width: 40px;
+    background-color: aliceblue;
+    border-radius: 50px;
+}
+.services h2, .projects h2, .clients h2{
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.services p, .projects p, .clients p{
+    margin-left: 27px;
+}
+.services button, .projects button, .clients button{
+    width: 160px;
+    margin: 64px 0px 0px 27px;
+    background-color: #29B6F6;
+    border: 1px solid #29B6F6;
+    font-weight: bold;
+    color: aliceblue;
+    height: 40px;
+    font-size: 80%;
+    text-align: center;
+    border-radius: 8px;
+}
+.bodyy3-info{
+    display: flex;
+    justify-content: space-around;
+}
+.img-bodyy3, .texto-bodyy3, .testimonial{
+    background-color: aliceblue;
+    height: 294px;
+    width: 465px;
+    margin: 19px;
+    font-style: normal;
+    color: #263238;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.img-bodyy3 img{
+    height: 190px;
+    width: 424px;
+}
+.testimonial img{
+    height: 148px;
+    width: 443px;
+}
+.texto-bodyy3{
+    margin-top: 74px;
+    height: 100px;
+}
+.final{
+    background-color: #d6e2fd;
+    height: 48px;
+    margin: -6px 9px 7px 5px;
+    font-style: normal;
+    color: #263238;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.final h5{
+    margin-left: 70px;
+    margin-right: 0px;
+}
